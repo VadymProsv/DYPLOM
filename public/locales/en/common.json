@@ -1,0 +1,338 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "create": "Create",
+    "creating": "Creating...",
+    "updating": "Updating...",
+    "deleting": "Deleting...",
+    "sending": "Sending...",
+    "confirm": "Confirm",
+    "back": "Back",
+    "appName": "EBlago"
+  },
+  "home": {
+    "description": "Platform for organizing military volunteer and charity events",
+    "features": {
+      "title": "Our Features",
+      "organization": {
+        "title": "Event Organization",
+        "description": "Create and manage volunteer events easily and efficiently"
+      },
+      "coordination": {
+        "title": "Participant Coordination",
+        "description": "Convenient registration and communication system between organizers and participants"
+      },
+      "analytics": {
+        "title": "Analytics",
+        "description": "Get detailed statistics and analytics for your events"
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "events": "Events",
+    "profile": "Profile",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "admin": "Admin Panel"
+  },
+  "auth": {
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "register": {
+      "title": "Registration",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Register"
+    },
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "invalidPassword": "Invalid password",
+      "invalidCredentials": "Invalid email or password",
+      "passwordMismatch": "Passwords do not match",
+      "weakPassword": "Password is too weak",
+      "emailInUse": "This email is already in use",
+      "registrationFailed": "Registration failed. Please try again.",
+      "loginFailed": "Login failed. Please try again.",
+      "invalidInput": "Invalid login data",
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required",
+      "passwordTooWeak": "Password is too weak. Minimum length is 6 characters",
+      "invalidEmailFormat": "Invalid email format"
+    },
+    "signout": "Sign Out"
+  },
+  "events": {
+    "title": "Events",
+    "createEvent": "Create Event",
+    "editEvent": "Edit Event",
+    "deleteEvent": "Delete Event",
+    "eventDetails": "Event Details",
+    "noEvents": "No events available",
+    "noParticipants": "No participants yet",
+    "search": "Search events",
+    "filter": "Filter events",
+    "category": "Category",
+    "categories": {
+      "all": "All categories",
+      "military": "Military",
+      "medical": "Medical",
+      "humanitarian": "Humanitarian",
+      "educational": "Educational"
+    },
+    "status": {
+      "upcoming": "Upcoming",
+      "ongoing": "Ongoing",
+      "completed": "Completed",
+      "canceled": "Canceled"
+    },
+    "startDate": "Start date",
+    "endDate": "End date",
+    "location": "Location",
+    "locationPlaceholder": "Enter address or select on the map",
+    "selectLocation": "Select location on the map",
+    "address": "Address",
+    "coordinates": "Coordinates",
+    "organizer": "Organizer",
+    "participants": "Participants",
+    "maxParticipants": "Maximum number of participants",
+    "description": "Description",
+    "date": "Start Date",
+    "image": "Event Image",
+    "contact": "Contact information",
+    "register": "Register",
+    "unregister": "Unregister",
+    "registered": "You are registered for this event",
+    "notRegistered": "You are not registered for this event",
+    "full": "Event is full",
+    "errors": {
+      "createFailed": "Failed to create event",
+      "updateFailed": "Failed to update event",
+      "deleteFailed": "Failed to delete event",
+      "registerFailed": "Failed to register for event",
+      "unregisterFailed": "Failed to unregister from event",
+      "notFound": "Event not found",
+      "unauthorized": "You do not have permission to perform this action",
+      "invalidLocation": "Please select a valid location"
+    },
+    "browseEvents": "Browse Events",
+    "placeholders": {
+      "title": "Event title",
+      "description": "Event description",
+      "date": "Date and time of the event",
+      "location": "Location",
+      "maxParticipants": "Maximum number of participants",
+      "contact": "Contact information"
+    },
+    "saveEvent": "Save",
+    "statusLabel": "Status"
+  },
+  "chat": {
+    "title": "Chat",
+    "inputPlaceholder": "Type a message...",
+    "send": "Send",
+    "attachFile": "Attach file",
+    "signInToChat": "Please sign in to participate in chat",
+    "loadMore": "Load more messages",
+    "noMessages": "No messages yet",
+    "errors": {
+      "loadFailed": "Failed to load messages",
+      "sendFailed": "Failed to send message",
+      "editFailed": "Failed to edit message",
+      "deleteFailed": "Failed to delete message"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "noNotifications": "No notifications",
+    "unreadCount": "{{count}} unread notifications",
+    "markAsRead": "Mark as read",
+    "markAllAsRead": "Mark all as read",
+    "delete": "Delete notification",
+    "errors": {
+      "loadFailed": "Failed to load notifications",
+      "markAsReadFailed": "Failed to mark notification as read",
+      "markAllAsReadFailed": "Failed to mark all notifications as read",
+      "deleteFailed": "Failed to delete notification"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "security": "Security",
+    "myEvents": "My Events",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "changePassword": "Change Password",
+    "passwordChanged": "Password has been changed successfully",
+    "deleteAccount": "Delete Account",
+    "deleteAccountConfirm": "Are you sure you want to delete your account? This action cannot be undone.",
+    "organizingEvents": "Events I'm Organizing",
+    "participatingEvents": "Events I'm Participating In",
+    "noOrganizingEvents": "You are not organizing any events",
+    "noParticipatingEvents": "You are not participating in any events",
+    "clickToChange": "Click to change photo",
+    "organizerRequest": {
+      "title": "Become an Organizer",
+      "organizationName": "Organization Name",
+      "organizationNamePlaceholder": "Your organization",
+      "phone": "Phone Number",
+      "orgEmail": "Organization Email",
+      "orgEmailPlaceholder": "yourorganization@gmail.com",
+      "message": "Cover Letter",
+      "messagePlaceholder": "Why do you want to become an organizer?",
+      "submit": "Submit"
+    },
+    "errors": {
+      "loadProfileFailed": "Failed to load profile",
+      "updateFailed": "Failed to update profile",
+      "changePasswordFailed": "Failed to change password",
+      "deleteAccountFailed": "Failed to delete account",
+      "loadEventsFailed": "Failed to load events"
+    },
+    "placeholders": {
+      "currentPassword": "Enter current password",
+      "newPassword": "Enter new password",
+      "confirmPassword": "Confirm new password"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "statistics": "Statistics",
+    "users": "Users",
+    "events": "Events",
+    "user": "User",
+    "role": "Role",
+    "actions": "Actions",
+    "loadMore": "Load More",
+    "confirmDeleteUser": "Are you sure you want to delete this user? This action cannot be undone.",
+    "confirmDeleteEvent": "Are you sure you want to delete this event? This action cannot be undone.",
+    "roles": {
+      "user": "User",
+      "organizer": "Organizer",
+      "admin": "Administrator"
+    },
+    "stats": {
+      "totalUsers": "Users",
+      "activeEvents": "Active events",
+      "completedEvents": "Completed events",
+      "totalParticipants": "Participants",
+      "organizersCount": "Organizers",
+      "avgDuration": "Average duration (days)",
+      "avgParticipants": "Average participants per event",
+      "avgEventsPerUser": "Average events per user",
+      "avgFillRate": "Average fill rate (%)",
+      "eventDurationDist": "Event duration distribution",
+      "participantsDist": "Participants per event",
+      "eventsByMonth": "Events by month",
+      "categoryPie": "Event categories",
+      "categoryDistribution": "Event category distribution"
+    },
+    "statusActive": "Active",
+    "statusBlocked": "Blocked",
+    "errors": {
+      "loadUsersFailed": "Failed to load users",
+      "loadEventsFailed": "Failed to load events",
+      "loadStatisticsFailed": "Failed to load statistics",
+      "updateRoleFailed": "Failed to update user role",
+      "updateStatusFailed": "Failed to update event status",
+      "deleteUserFailed": "Failed to delete user",
+      "deleteEventFailed": "Failed to delete event"
+    },
+    "organizerRequests": {
+      "title": "Organizer requests",
+      "noRequests": "No new requests.",
+      "user": "User",
+      "organization": "Organization",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "status": {
+        "label": "Status",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "view": "View",
+      "approve": "Approve",
+      "reject": "Reject",
+      "details": "Request details"
+    }
+  },
+  "calendar": {
+    "title": "Event Calendar",
+    "today": "Today",
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "allDay": "All day",
+    "noEvents": "No events to display",
+    "createEvent": "Create Event",
+    "viewEvent": "View Event Details",
+    "categories": {
+      "title": "Event Categories",
+      "military": "Military",
+      "medical": "Medical",
+      "humanitarian": "Humanitarian",
+      "educational": "Educational"
+    }
+  },
+  "user": {
+    "dashboard": "Dashboard",
+    "upcomingEvents": "Upcoming Events",
+    "registeredEvents": "Registered Events",
+    "registeredEventsList": "List of Registered Events"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "EBlago is a platform that unites people for organizing and conducting military volunteer and charity events. Our goal is to make the process of organizing help simpler and more efficient.",
+    "features": {
+      "community": {
+        "title": "Volunteer Community",
+        "description": "We unite people who want to help and do good deeds for our country."
+      },
+      "charity": {
+        "title": "Charity",
+        "description": "We create opportunities for fundraising and material assistance for those in need."
+      },
+      "safety": {
+        "title": "Safety",
+        "description": "We provide a secure and transparent platform for organizing and conducting events."
+      },
+      "efficiency": {
+        "title": "Efficiency",
+        "description": "We provide tools for effective event management and participant coordination."
+      }
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We believe that everyone can contribute to the development of society. Our platform is created to make this process as convenient and efficient as possible for all participants."
+    },
+    "values": {
+      "title": "Our Values",
+      "transparency": "Transparency and honesty in all processes",
+      "support": "Mutual assistance and support",
+      "efficiency": "Efficient use of resources",
+      "safety": "Safety and reliability"
+    }
+  },
+  "footer": {
+    "description": "Platform for organizing military volunteer and charity events",
+    "quickLinks": "Quick links",
+    "home": "Home",
+    "about": "About us",
+    "contacts": "Contacts",
+    "email": "Email",
+    "phone": "Phone",
+    "copyright": "All rights reserved."
+  }
+} 

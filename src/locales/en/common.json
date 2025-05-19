@@ -1,0 +1,60 @@
+{
+  "common": {
+    "appName": "EBlago",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "backToHome": "Back to Home"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "name": "Name",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "signInSuccess": "Successfully signed in",
+    "signInError": "Failed to sign in",
+    "signUpSuccess": "Successfully signed up",
+    "signUpError": "Failed to sign up",
+    "passwordsDoNotMatch": "Passwords do not match"
+  },
+  "error": {
+    "unauthorized": "Unauthorized",
+    "unauthorizedMessage": "You don't have permission to view this page",
+    "notFound": "Page Not Found",
+    "notFoundMessage": "The page you're looking for doesn't exist"
+  },
+  "events": {
+    "title": "Events",
+    "createEvent": "Create Event",
+    "editEvent": "Edit Event",
+    "deleteEvent": "Delete Event",
+    "eventDetails": "Event Details",
+    "location": "Location",
+    "date": "Date",
+    "time": "Time",
+    "category": "Category",
+    "organizer": "Organizer",
+    "participants": "Participants",
+    "register": "Register",
+    "unregister": "Unregister"
+  },
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "myEvents": "My Events",
+    "organizedEvents": "Organized Events",
+    "becomeOrganizer": "Become an Organizer"
+  }
+} 

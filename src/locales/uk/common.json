@@ -1,0 +1,60 @@
+{
+  "common": {
+    "appName": "ЄБлаго",
+    "loading": "Завантаження...",
+    "error": "Помилка",
+    "success": "Успішно",
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "delete": "Видалити",
+    "edit": "Редагувати",
+    "create": "Створити",
+    "backToHome": "На головну"
+  },
+  "auth": {
+    "signIn": "Увійти",
+    "signUp": "Зареєструватися",
+    "signOut": "Вийти",
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "confirmPassword": "Підтвердіть пароль",
+    "forgotPassword": "Забули пароль?",
+    "resetPassword": "Скинути пароль",
+    "name": "Ім'я",
+    "dontHaveAccount": "Немає облікового запису?",
+    "alreadyHaveAccount": "Вже маєте обліковий запис?",
+    "signInSuccess": "Вхід успішний",
+    "signInError": "Помилка входу",
+    "signUpSuccess": "Реєстрація успішна",
+    "signUpError": "Помилка реєстрації",
+    "passwordsDoNotMatch": "Паролі не співпадають"
+  },
+  "error": {
+    "unauthorized": "Немає доступу",
+    "unauthorizedMessage": "У вас немає прав для перегляду цієї сторінки",
+    "notFound": "Сторінку не знайдено",
+    "notFoundMessage": "Сторінка, яку ви шукаєте, не існує"
+  },
+  "events": {
+    "title": "Події",
+    "createEvent": "Створити подію",
+    "editEvent": "Редагувати подію",
+    "deleteEvent": "Видалити подію",
+    "eventDetails": "Деталі події",
+    "location": "Місце проведення",
+    "date": "Дата",
+    "time": "Час",
+    "category": "Категорія",
+    "organizer": "Організатор",
+    "participants": "Учасники",
+    "register": "Зареєструватися",
+    "unregister": "Скасувати реєстрацію"
+  },
+  "profile": {
+    "title": "Профіль",
+    "editProfile": "Редагувати профіль",
+    "myEvents": "Мої події",
+    "organizedEvents": "Організовані події",
+    "becomeOrganizer": "Стати організатором"
+  }
+} 

@@ -1,0 +1,44 @@
+{
+  "name": "eblago",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@react-google-maps/api": "^2.20.6",
+    "@reduxjs/toolkit": "^2.6.0",
+    "axios": "^1.8.1",
+    "next": "15.2.1",
+    "next-i18next": "^15.4.2",
+    "react": "^19.0.0",
+    "react-cool-onclickoutside": "^1.7.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "socket.io-client": "^4.8.1",
+    "use-places-autocomplete": "^4.0.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/socket.io-client": "^1.4.36",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1",
+    "sass": "^1.85.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
